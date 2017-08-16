@@ -7,6 +7,6 @@
    tasks:
      -name: Change Dir
      shell: chdir=/home/alepo/jenkins/workspace/MyFirstMavenProject/workspace/sampleapp
-  tasks
-    -name: Executing Jetty
-    shell: mvn jetty:run
+   tasks
+     -name: Executing Jetty
+     shell: mvn jetty:run
