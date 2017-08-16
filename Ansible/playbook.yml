@@ -6,7 +6,7 @@
        copy: src=/var/lib/jenkins/jobs/MyFirstMavenProject/workspace/sampleapp dest=/home/alepo/jenkins/workspace/MyFirstMavenProject
    tasks:
      - name: Change Dir
-     shell: chdir=/home/alepo/jenkins/workspace/MyFirstMavenProject/workspace/sampleapp
+       shell: chdir=/home/alepo/jenkins/workspace/MyFirstMavenProject/workspace/sampleapp
    tasks:
      - name: Executing Jetty
-     shell: mvn jetty:run
+       shell: mvn jetty:run
