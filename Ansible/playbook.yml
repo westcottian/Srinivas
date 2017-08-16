@@ -1,11 +1,12 @@
 ---
  - hosts: web-servers
+   user: root
    tasks:
      - name: copy of hosts file
        copy: src=/var/lib/jenkins/jobs/MyFirstMavenProject/workspace/sampleapp dest=/home/alepo/jenkins/workspace/MyFirstMavenProject
    tasks:
-     -name: Change Dir
+     - name: Change Dir
      shell: chdir=/home/alepo/jenkins/workspace/MyFirstMavenProject/workspace/sampleapp
    tasks:
-     -name: Executing Jetty
+     - name: Executing Jetty
      shell: mvn jetty:run
