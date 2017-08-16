@@ -4,3 +4,7 @@
    tasks:
      - name: copy of hosts file
        copy: src=/var/lib/jenkins/jobs/MyFirstMavenProject/workspace/sampleapp dest=/home/alepo/jenkins/workspace/MyFirstMavenProject
+   tasks:
+     -name: Executing POM
+     shell: chdir=/home/alepo/jenkins/workspace/MyFirstMavenProject/workspace/sampleapp
+     shell: mvn jetty:run
