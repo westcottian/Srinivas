@@ -1,6 +1,5 @@
 ---
  - hosts: web-servers
-   user: root
    tasks:
      - name: copy of hosts file
        copy: src=/var/lib/jenkins/jobs/MyFirstMavenProject/workspace/sampleapp dest=/home/alepo/jenkins/workspace/MyFirstMavenProject
