@@ -9,4 +9,4 @@
        shell: chdir=/home/alepo/jenkins/workspace/MyFirstMavenProject/workspace/sampleapp
    tasks:
      - name: Executing Jetty
-       shell: mvn jetty:run
+       command: mvn -f pom.xml jetty:run
