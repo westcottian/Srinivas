@@ -3,4 +3,4 @@
    user: root
    tasks:
      - name: copy of hosts file
-       copy: src=/var/lib/jenkins/jobs/MyFirstMavenProject/workspace/sampleapp dest=/home/alepo/jenkins/workspace/MyFirstMavenProject
+       copy: src=/var/lib/jenkins/jobs/MyFirstMavenProject/workspace/sampleapp/pom.xml dest=/home/alepo/jenkins/workspace/MyFirstMavenProject
