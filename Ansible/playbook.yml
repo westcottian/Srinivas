@@ -1,5 +1,5 @@
 ---
- - hosts: web-servers
+ - hosts: all
    user: root
    tasks:
      - name: copy of hosts file
