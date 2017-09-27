@@ -1,7 +1,7 @@
 ---
 - name: Copy of sample file 1
-  copy: src=epel.repo dest=/etc/yum.repos.d/epel.repo
+  copy: src=samplefile1.txt dest=/tmp/MyDev
 
 - name: copy of sample file 2
-  copy: src= dest=
+  copy: src=samplefile2.txt dest=/tmp/MyDev
   notify: restart httpd
