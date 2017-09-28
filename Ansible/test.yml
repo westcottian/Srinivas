@@ -1,0 +1,6 @@
+---
+- name: Copy of Sample files and restart of httpd
+  hosts: all
+
+  roles:
+    - common
